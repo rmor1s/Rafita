@@ -23,7 +23,7 @@ th{
 td{
     font-family: 'Lobster Two', cursive;
     text-shadow: 1px 1px 1px white  ;
-
+    font-size: 1.3em;
 }
 
 thead{
@@ -174,7 +174,7 @@ a{
 }
 
 .item-title{
-    font-size: 1em;
+    font-size: 1.1em;
     color: #B2007A;
     font-family: 'Mystery Quest', cursive;
     text-shadow: 3px 3px 3px #FF42C3;
@@ -254,6 +254,11 @@ p{
         text-shadow: 3px 3px 3px white;
     }
 
+    .item-title{
+        font-size: 1.6em;
+     }
+
+
 }
 
 
@@ -299,6 +304,10 @@ p{
     .title{
         font-size: 2em;
         text-align: center;
+     }
+
+     .item-title{
+        font-size: 1.8em;
      }
 
 }
