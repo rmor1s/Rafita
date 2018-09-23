@@ -22,7 +22,7 @@ th{
 
 td{
     font-family: 'Lobster Two', cursive;
-    text-shadow: 1px 1px 1px white  ;
+    text-shadow: 1px 1px 1px white;
     font-size: 1.3em;
 }
 
@@ -101,8 +101,12 @@ td{
 
 .fa-heart{
     /* color:#FF00AE; */
-    color:red;
+    text-shadow: 2px 2px 2px white;
+    color: rgb(240, 71, 71);
 }
+
+
+
 
 .center{
     text-align: center;
@@ -119,7 +123,7 @@ td{
     padding: 3px;
     margin-left: 5px;
     border-radius: 4px;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 /* .actions{
@@ -173,7 +177,7 @@ a{
     font-family: 'Mystery Quest', cursive;
     text-shadow: 3px 3px 3px #FF42C3;
     text-indent: -55px;
-	padding-left: 40px
+	padding-left: 50px; 
 }
 
 .item-image{
@@ -195,6 +199,12 @@ p{
     margin-bottom: 2px;
     margin-top: 0px;
 }
+
+i:hover{
+        color:white;
+    }
+}
+
 
 
 @media(min-width:600px){
@@ -328,8 +338,8 @@ p{
      }
 
      img{
-        width: 30vw;
-        height: 44vh;
+        width: 300px;
+        height: 200px;
     }
 
 }

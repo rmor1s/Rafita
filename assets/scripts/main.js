@@ -223,3 +223,12 @@ cantar15.forEach(function(cantar15){
         }, 1000);
     });
 })
+
+let elementList =document.querySelectorAll(".fa-heart");
+
+elementList.forEach(function(element){
+    element.addEventListener('click',function(){
+        element.classList.remove("far");
+        element.classList.add("fas")
+    })
+});
