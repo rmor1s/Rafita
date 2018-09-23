@@ -61,7 +61,7 @@ body {
     width: 80vw;
     box-shadow: 2px 2px 2px 2px #17B200;
     position: relative;
-    padding: 1.8em;
+    padding: 1em;
     border-radius: 20px;
     overflow: scroll;
     overflow-x:hidden;
@@ -172,6 +172,8 @@ a{
     color: #B2007A;
     font-family: 'Mystery Quest', cursive;
     text-shadow: 3px 3px 3px #FF42C3;
+    text-indent: -55px;
+	padding-left: 40px
 }
 
 .item-image{
@@ -231,8 +233,15 @@ p{
 
     .item-image{
         display: inline-block;
+      
         }
         
+    img{
+        width: 35vw;
+        height: 40vh;
+    }
+
+
     iframe{
        width: 35vw;
        height: 40vh;
@@ -278,16 +287,16 @@ p{
 
     th{
         display:table-cell;
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     td{
         display: table-cell;
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     td:nth-of-type(1){
-        font-size: 1.5em;
+        font-size: 1.2em;
         color:black;  
     }
 
@@ -317,6 +326,11 @@ p{
      .item-title{
         font-size: 1.8em;
      }
+
+     img{
+        width: 30vw;
+        height: 44vh;
+    }
 
 }
 
