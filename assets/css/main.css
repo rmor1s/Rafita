@@ -96,7 +96,7 @@ th{
 
 td{
    display: block; 
-}
+} 
 
 
 .fa-heart{
@@ -201,7 +201,7 @@ p{
 }
 
 i:hover{
-        color:white;
+        color:white;    
     }
 }
 
@@ -217,44 +217,44 @@ i:hover{
         text-shadow: 2px 2px 2px #FF42C3;
     }
 
-    body {
+    body{
         background-image: url(../images/background1920.jpg);
     }
 
     th{
         display:table-cell;
-        font-size: 1em;
+        font-size:1.5em;
     }
 
     td{
-        display: table-cell;
+        display:table-cell;
         font-size: 0.8em;
     }
 
     td:nth-of-type(1){
+        display:table-cell;
         font-size: 0.8em;
         color:black;  
     }
 
     .content{
-        width: 85vw;
-        height: 85vh;
+        width:85vw;
+        height:85vh;
     }
 
     .item-image{
-        display: inline-block;
+        display:inline-block;
       
         }
         
     img{
-        width: 35vw;
-        height: 40vh;
+        width:35vw;
+        height:40vh;
     }
 
-
     iframe{
-       width: 35vw;
-       height: 40vh;
+       width:35vw;
+       height:40vh;
     }
 
     .inline{
@@ -265,10 +265,6 @@ i:hover{
         font-size: 1.5em;
         text-align: center;
      }
-
-     th{
-        font-size: 1em;
-    }
 
     .text{
         font-size: 1.8em;
@@ -291,7 +287,7 @@ i:hover{
         text-shadow: 3px 3px 3px #FF42C3;
     }
 
-    body {
+    body{
         background-image: url(../images/background.jpg);
     }
 
@@ -347,5 +343,29 @@ i:hover{
 @media(min-height:500px){
     section{
         position: sticky;
+    }
+}
+
+
+@media(min-width:600px){
+
+    th{
+        font-size:1.2em;
+        display:table-cell;
+    }
+
+    td{
+        display:table-cell;
+        font-size: 0.8em;
+    }
+
+    body {
+        background-image: url(../images/background1920.jpg);
+    }
+}
+
+@media(min-width:840px){
+    body{
+        background-image: url(../images/background.jpg);
     }
 }
