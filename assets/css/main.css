@@ -362,10 +362,25 @@ i:hover{
     body {
         background-image: url(../images/background1920.jpg);
     }
+
+    iframe{
+        width:45vw;
+        height:40vh;
+     }
 }
 
 @media(min-width:840px){
     body{
         background-image: url(../images/background.jpg);
+    }
+
+    iframe{
+        width:30vw;
+        height:44vh;
+     }
+
+     img{
+        width:30vw;
+        height:44vh;
     }
 }
