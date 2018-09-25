@@ -133,7 +133,7 @@ td{
 } */
 
 .actions{
-    position: sticky;
+    position:fixed;
     top: 1em;
     left: 1em;
     display: flex;
@@ -175,7 +175,7 @@ a{
     font-size: 1.1em;
     color: #B2007A;
     font-family: 'Mystery Quest', cursive;
-    text-shadow: 3px 3px 3px #FF42C3;
+    text-shadow: 2px 2px 2px #FF42C3;
     text-indent: -55px;
 	padding-left: 50px; 
 }
@@ -382,5 +382,13 @@ i:hover{
      img{
         width:30vw;
         height:44vh;
+    }
+
+    .actions{
+        position:sticky;
+        top: 1em;
+        left: 1em;
+        display: flex;
+        justify-content: flex-end;
     }
 }
