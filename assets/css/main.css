@@ -82,11 +82,11 @@ body {
       font-weight: bold;
   }
 
-.table tr:nth-child(odd){
+.table tr:nth-child(even){
     background-color:rgba(53,255,24,0.5);
 }
 
-.table tr:nth-child(even){
+.table tr:nth-child(odd){
     background-color:rgba(255, 0, 174, 0.5);
 }
 
